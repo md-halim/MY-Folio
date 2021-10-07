@@ -1,0 +1,154 @@
+ul,ol{
+    list-style-type: none;
+}
+body{
+    font-family: 'open sans', sans-serif;
+}
+.custom_nav{
+    background: #02918c;
+}
+
+#mynav ul li a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#banner .carousel-item{
+    height: 600px;
+    overflow: hidden;
+}
+#banner .carousel-caption{
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+/*about part*/
+.about_slider .slick-dots{
+    margin: auto;
+}
+.about_slider .slick-dots li{
+    display: inline-block;
+    text-align: center;
+}
+.about_slider .slick-dots li button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 0;
+    margin: 0 5px;
+    text-align: center;
+    color: transparent;
+    background-color: #02918C;
+}
+.about_slider .slick-dots .slick-active button{
+    background: red;
+}
+.aboutslidermain{
+    position: relative;
+}
+.nxtbtn,
+.prevbtn{
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    border-radius: 5px;
+    background: #ddd;
+    color: brown;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.nxtbtn{
+    right: 0px;
+}
+.prevbtn{
+    left: 0px;
+}
+
+.banner_part{
+    padding: 100px 0;
+}
+
+.section_head h2{
+    font-size: 100px;
+    font-weight: 700;
+}
+.section_head p{
+    font-size: 25px;
+}
+
+
+.services{
+    background: url(../images/servicesbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 70px 0;
+}
+
+.work{
+    padding-top:50px;
+}
+
+.work_part img{
+    width: 100%;
+}
+.work_part{
+    position: relative;
+}
+.work_part .overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    transition: .5s;
+    -webkit-transition: .5s;
+}
+.work_part .work_img:hover .overly{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+.work_part .overly h2{
+    color: #fff;
+}
+
+
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+/* Filter controls */
+.simplefilter li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.simplefilter li {
+    background-color: #585858;
+    background-color: blue;
+}
+.simplefilter li.active {
+    background-color: #212121;
+}

@@ -1,0 +1,39 @@
+@media(min-width:768px) and (max-width:991px) {
+    #banner .carousel-item {
+        height: 350px;
+    }
+    .section_head h2 {
+        font-size: 50px;
+        color: red;
+    }
+    .section_head p {
+        font-size: 16px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    #banner .carousel-item {
+        height: 300px;
+    }
+    .section_head h2 {
+        font-size: 25px;
+    }
+    .section_head p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:575px) {
+    #banner .carousel-item {
+        height: 170px;
+    }
+    .section_head h2 {
+        font-size: 25px;
+    }
+    .section_head p {
+        font-size: 16px;
+    }
+    .services {
+        padding: 50px 0;
+    }
+}
